@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "description": "Classic Italian pasta dish with creamy sauce.",
+        "ingredients": [
+            "Pasta",
+            "Eggs",
+            "Pancetta",
+            "Parmesan Cheese",
+            "Black Pepper"
+        ],
+        "steps": [
+            "Boil pasta until al dente.",
+            "Cook pancetta until crispy.",
+            "Mix eggs and Parmesan cheese together.",
+            "Combine cooked pasta with pancetta, then mix in the egg mixture.",
+            "Serve immediately with black pepper."
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Spaghetti_alle_vongole.jpg/1280px-Spaghetti_alle_vongole.jpg",
+        "reviews": [
+            {
+                "blurb": "Absolutely delicious! My family loved it.",
+                "rating": 5
+            },
+            {
+                "blurb": "Good, but could use more cheese.",
+                "rating": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Chocolate Cake",
+        "description": "Rich and moist chocolate cake with creamy frosting.",
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Cocoa Powder",
+            "Eggs",
+            "Butter",
+            "Baking Powder"
+        ],
+        "steps": [
+            "Preheat oven to 350°F.",
+            "Mix dry ingredients together.",
+            "Add eggs and butter, and mix until smooth.",
+            "Pour batter into a greased pan and bake for 30 minutes.",
+            "Let cool before applying frosting."
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ChocolateTruffleCakeIdeal01.JPG/1280px-ChocolateTruffleCakeIdeal01.JPG"
+    }
+]
