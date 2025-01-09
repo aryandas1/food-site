@@ -2,14 +2,24 @@ import recipes from './recipes.json';
 
 const RecipeDetail = ({ id }) => {
     const recipe = recipes.find((r) => r.id === parseInt(id, 10));
-    if (!recipe) return <h2 className="text-center text-red-500">Recipe not found</h2>;
+    if (!recipe) {
+        return <h2 className="text-center text-red-500">Recipe not found</h2>;
+    }
+
+    const calculateAverageRating = (reviews) => {
+        if (!reviews || reviews.length === 0) return "No ratings yet";
+        const total = reviews.reduce((sum, review) => sum + review.rating, 0);
+        return (total / reviews.length).toFixed(1); // Rounded to 1 decimal place
+      };
+    
+    const averageRating = calculateAverageRating(recipe.reviews);
 
     return (
         <div className="p-4">
             <h1 className="text-4xl font-bold mb-4">{recipe.title}</h1>
-            <img src={recipe.imageUrl} alt={recipe.title} className="w-full h-64 object-cover rounded-md mb-4" />
+            <img src={recipe.imageUrl} alt={recipe.title} className="w-full max-w-lg h-auto rounded-md shadow-md" />
             <p className="text-lg text-gray-700 mb-4">{recipe.description}</p>
-
+            <p className="text-black-500 font-bold">Average Rating: {averageRating}</p>
             <h2 className="text-2xl font-semibold mb-2">Ingredients</h2>
             <ul className="list-disc pl-5 mb-4">
                 {recipe.ingredients.map((ingredient, index) => (

@@ -11,6 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
 
 @tailwind base;
 @tailwind components;

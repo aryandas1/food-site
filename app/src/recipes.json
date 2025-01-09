@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Spaghetti Carbonara",
-        "description": "Classic Italian pasta dish with creamy sauce.",
+        "title": "Spinach Garlic Pasta",
+        "description": "Our first homecooked meal together",
         "ingredients": [
             "Pasta",
             "Eggs",
@@ -17,15 +17,11 @@
             "Combine cooked pasta with pancetta, then mix in the egg mixture.",
             "Serve immediately with black pepper."
         ],
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Spaghetti_alle_vongole.jpg/1280px-Spaghetti_alle_vongole.jpg",
+        "imageUrl": "/images/greenpasta.jpg",
         "reviews": [
             {
-                "blurb": "Absolutely delicious! My family loved it.",
+                "blurb": "I like spinach and garlic, could use more spice. -Aryan",
                 "rating": 5
-            },
-            {
-                "blurb": "Good, but could use more cheese.",
-                "rating": 4
             }
         ]
     },
