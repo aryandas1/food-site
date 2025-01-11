@@ -27,8 +27,8 @@
     },
     {
         "id": 2,
-        "title": "Chocolate Cake",
-        "description": "Rich and moist chocolate cake with creamy frosting.",
+        "title": "Chicken Panang Curry",
+        "description": "Thai food very good",
         "ingredients": [
             "Flour",
             "Sugar",
@@ -44,6 +44,12 @@
             "Pour batter into a greased pan and bake for 30 minutes.",
             "Let cool before applying frosting."
         ],
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ChocolateTruffleCakeIdeal01.JPG/1280px-ChocolateTruffleCakeIdeal01.JPG"
+        "imageUrl": "/images/panangcurry.png",
+        "reviews": [
+            {
+                "blurb": "I like spinach and garlic, could use more spice. -Aryan",
+                "rating": 5
+            }
+        ]
     }
 ]
