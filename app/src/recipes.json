@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "title": "Spinach Garlic Pasta",
+        "description": "Our first homecooked meal together",
+        "ingredients": [
+            "Pasta",
+            "Eggs",
+            "Pancetta",
+            "Parmesan Cheese",
+            "Black Pepper"
+        ],
+        "steps": [
+            "Boil pasta until al dente.",
+            "Cook pancetta until crispy.",
+            "Mix eggs and Parmesan cheese together.",
+            "Combine cooked pasta with pancetta, then mix in the egg mixture.",
+            "Serve immediately with black pepper."
+        ],
+        "imageUrl": "/images/greenpasta.jpg",
+        "reviews": [
+            {
+                "blurb": "I like spinach and garlic, could use more spice. -Aryan",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Chicken Panang Curry",
+        "description": "Thai food very good",
+        "ingredients": [
+            "Flour",
+            "Sugar",
+            "Cocoa Powder",
+            "Eggs",
+            "Butter",
+            "Baking Powder"
+        ],
+        "steps": [
+            "Preheat oven to 350°F.",
+            "Mix dry ingredients together.",
+            "Add eggs and butter, and mix until smooth.",
+            "Pour batter into a greased pan and bake for 30 minutes.",
+            "Let cool before applying frosting."
+        ],
+        "imageUrl": "/images/panangcurry.png",
+        "reviews": [
+            {
+                "blurb": "I like spinach and garlic, could use more spice. -Aryan",
+                "rating": 5
+            }
+        ]
+    }
+]
