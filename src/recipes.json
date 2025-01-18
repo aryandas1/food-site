@@ -26,7 +26,8 @@
                 "blurb": "I like spinach and garlic, could use more spice. -Aryan",
                 "rating": 5
             }
-        ]
+        ],
+        "status": "completed"
     },
     {
         "id": "chickenpanangcurry",
@@ -59,7 +60,8 @@
                 "blurb": "I like spinach and garlic, could use more spice. -Aryan",
                 "rating": 5
             }
-        ]
+        ],
+        "status": "completed"
     },
     {
         "id": "butterchicken",
@@ -92,6 +94,7 @@
                 "blurb": "Yum. Healthy too. -Aryan",
                 "rating": 5
             }
-        ]
+        ],
+        "status": "completed"
     }
 ]
