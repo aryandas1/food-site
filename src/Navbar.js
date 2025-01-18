@@ -4,7 +4,7 @@ const Navbar = () => (
   <nav className="bg-white-600 text-black p-6 flex justify-between items-center">
     <Link to="/" className="flex items-center">
       <img
-        src={require("./assets/knife.webp")}
+        src={require("./assets/knife.png")}
         alt="Logo"
         className="h-12 w-12 mr-2"
       />
