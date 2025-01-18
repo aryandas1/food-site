@@ -16,13 +16,18 @@ body {
   padding-right: 1rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1350px) {
   body {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }
-
+@media (min-width: 1350px) {
+  body {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
