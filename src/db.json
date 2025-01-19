@@ -1,0 +1,102 @@
+{
+  "recipes": [
+    {
+      "id": "spinachgarlicpasta",
+      "title": "Spinach Garlic Pasta",
+      "description": "Our first homecooked meal together",
+      "ingredients": [
+        "150 g water",
+        "10 g corn starch",
+        "150 g spinach",
+        "100 g grated parm",
+        "3 cloves minced garlic",
+        "2 spoons olive oil",
+        "1/2 lemon",
+        "black pepper",
+        "salt",
+        "fresh basil"
+      ],
+      "steps": [
+        "Prepare the spinach: Set a pot of water to boil. Meanwhile, mince the garlic, grate the parmesan, and gather the remaining ingredients. Fill a mixing bowl with ice water. Once the water has boiled, add the spinach and blanch for 45 seconds. Strain and add to the cold water to stop the cooking process. Transfer to a paper towel to dry for a minute, then roughly chop.",
+        "Make the sauce: Make the stabilizing gel by adding the cornstarch and water to a small saucepan. Mix together until dissolved. Turn the heat to low and, while whisking, bring it to just below a simmer. The starch should begin to thicken. Stir to ensure there are no clumps, then turn off the heat and set aside. Add the spinach, garlic, cheese, olive oil, lemon juice, and as much fresh cracked black pepper as desired to a blender. Pulse once or twice. Pour in the cornstarch gel and blend everything together to create a stable emulsion of the cheese, pepper, and gel. Give it a taste, and add a touch of salt if needed. Store in the fridge for up to 3-4 days.",
+        "Boil noodles & mix pasta: Set a pot of water to boil along with a big pinch of salt. Add the pasta and bring to a boil. Cook until slightly underdone, 1-2 minutes less than the package says. Reserve some of the pasta water. Set a second pan on the stove, but keep the heat off. Add 2 heaping spoonfuls of the spinach sauce along with a splash of the reserved pasta water. Mix together until smooth. With the heat still off, add the still-hot pasta. Turn the heat to medium-low and slowly bring up the temperature of the sauce while tossing with the pasta. Be a little careful of the heat, but this can come to a light simmer without breaking. Serve on a plate with more grated parm and some basil."
+      ],
+      "imageUrl": "/images/greenpasta.jpg",
+      "reviews": [
+        {
+          "blurb": "I like spinach and garlic, could use more spice. -Aryan",
+          "rating": 5
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "chickenpanangcurry",
+      "title": "Chicken Panang Curry",
+      "description": "Thai food very good",
+      "ingredients": [
+        "1 clove Ginger",
+        "1” piece Garlic",
+        "4 tbsp curry paste - maesri brand",
+        "400 ml Coconut milk",
+        "1 lb Chicken thigh in pieces",
+        "1.5 cup chicken stock",
+        "1.5 Tbsp fish sauce",
+        "1 Tbsp palm sugar",
+        "Lime zest",
+        "1 cup sliced Bamboo shoots",
+        "1 Red bell pepper sliced",
+        "1 cup Thai basil"
+      ],
+      "steps": [
+        "Cook curry paste, ginger, and garlic in oil until fragrant",
+        "Add 1/2 of coconut milk and cook until oil begins to separate",
+        "Add in chicken thigh and cook for about 5 min",
+        "Now add in the remaining coconut milk, chicken stock, fish sauce, palm sugar, and lime zest and reduce",
+        "Add in bell pepper, bamboo shoots, and thai basil, and cook for a few more min until veg is just barely softened"
+      ],
+      "imageUrl": "/images/panangcurry.png",
+      "reviews": [
+        {
+          "blurb": "I like spinach and garlic, could use more spice. -Aryan",
+          "rating": 5
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "butterchicken",
+      "title": "Butter Chicken",
+      "description": "Healthy tasty chicken curry",
+      "ingredients": [
+        "1 medium onion",
+        "chicken thighs",
+        "8oz canned tomato sauce",
+        "1 small tomato",
+        "Ginger garlic paste",
+        "Garam masala",
+        "Chili powder (optional)",
+        "Plain yogurt",
+        "Minced garlic",
+        "200g Evaporated milk",
+        "Regular laughing cow cheese"
+      ],
+      "steps": [
+        "Marinate chicken: cut chicken into bite sized pieces and put into a mixture of yogurt and garam masala",
+        "After a few hours, put chicken into a very hot pan for about 5 mins. Chicken should have some color but not fully cooked. Bits should be stuck to pan",
+        "Garlic and onions into the pan, along with spices, then tomatoes, then tomato sauce can",
+        "In goes evap milk and laughing cow cheese",
+        "Once everything is combined, put in chicken",
+        "Stir occasionally and let it sit for about 10 mins"
+      ],
+      "imageUrl": "/images/butterchicken2.jpg",
+      "reviews": [
+        {
+          "blurb": "Yum. Healthy too. -Aryan",
+          "rating": 5
+        }
+      ],
+      "status": "completed"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ const RecipeCard = ({ recipe }) => {
   const calculateAverageRating = (reviews) => {
     if (!reviews || reviews.length === 0) return "No ratings yet";
     const total = reviews.reduce((sum, review) => sum + review.rating, 0);
-    return (total / reviews.length).toFixed(1); // Rounded to 1 decimal place
+    return (total / reviews.length).toFixed(1); 
   };
 
   const averageRating = calculateAverageRating(recipe.reviews);

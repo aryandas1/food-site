@@ -9,7 +9,8 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [authenticated, setAuthenticated] = useState(false);
   const password = process.env.REACT_APP_PASSWORD;
-  console.log(password)
+  const [recipes, setRecipes] = useState([]);
+
   const handleLogin = (enteredPassword, setMessage) => {
     if (enteredPassword === password) {
       setAuthenticated(true);
@@ -39,8 +40,11 @@ function App() {
     <BrowserRouter>
       <Navbar onLogout={handleLogout} />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/recipe/:id" element={<RecipeWrapper />} />
+        <Route path="/" element={<Home setRecipesInParent={setRecipes} />} />
+        <Route
+          path="/recipe/:id"
+          element={<RecipeWrapper recipes={recipes} />}
+        />
       </Routes>
     </BrowserRouter>
   );
