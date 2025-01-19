@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const PasswordPrompt = ({ onLogin }) => {
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
-    const [message, setMessage] = useState(""); // State for error message
+    const [message, setMessage] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onLogin(password, setMessage); // Pass setMessage to handleLogin in App.js
+        onLogin(password, setMessage);
     };
 
     const togglePasswordVisibility = () => {
@@ -37,7 +37,7 @@ const PasswordPrompt = ({ onLogin }) => {
                         {showPassword ? "Hide" : "Show"}
                     </button>
                 </div>
-                {message && <p className="text-red-500 text-center">{message}</p>} {/* Error message */}
+                {message && <p className="text-red-500 text-center">{message}</p>}
                 <button
                     type="submit"
                     className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600"
